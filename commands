@@ -33,5 +33,13 @@ Process & System Monitoring
 Exiting & Managing Container
 
   exit (Exit shell)
+----------------------------------
+
+Install ping package  
+  apt-get update
+  apt-get install -y iputils-ping
+  ping -c 4 127.0.0.1
+
+
 
 
