@@ -1,1 +1,37 @@
+Build & Run
+  docker-compose build
+  docker-compose up -d
+  docker ps
+--------------------------------
+Access the Lab
+  docker exec -it linuxlab /bin/bash 
+                OR 
+  docker exec -it <container_name> /bin/bash (Check Container Name)
+
+  exit  ( To Exit shell)
+------------------------------
+System Information
+  hostname ( To Check hostname)
+  ip addr show (Check IP address)
+  cat /etc/os-release ( Check OS version)
+
+File & Directory Management
+  ls -l /root (List files)
+  cat /root/myconfig.txt (View mounted config)
+  vim /root/myconfig.txt (Edit file with vim)
+
+Networking
+  ping 172.28.0.10 (Ping test)
+  ip route (Check routes)
+  ifconfig (Legacy ifconfig)
+
+Process & System Monitoring
+  ps aux (List processes)
+  top (Check CPU/memory usage)
+  df -h (Disk usage)
+
+Exiting & Managing Container
+
+  exit (Exit shell)
+
 
